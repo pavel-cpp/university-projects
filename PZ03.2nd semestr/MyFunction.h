@@ -31,7 +31,7 @@ void firstTask(){
     FILE *fileStream;
     fileStream = fopen("output.txt", "w+");
     for (int i = 0; i < 10; ++i) {
-        if(GPA(stud[i].rating) >= 4.0){
+        if(GPA(stud[i].rating) > 4.0){
             printf("ФИО: %s \n Группа: %d \n", stud[i].name, stud[i].group);
             fprintf(fileStream, "ФИО: %s \n Группа: %d \n", stud[i].name, stud[i].group);
         }else{
