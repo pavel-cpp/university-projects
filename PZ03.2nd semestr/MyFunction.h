@@ -115,8 +115,10 @@ void switcher(int task){
             return;
         case 4:
             fourthTask();
+            return;
         case 5:
             fifthTask();
+            return;
         default:
             exit(EXIT_SUCCESS);
     }
