@@ -5,7 +5,7 @@
 int main(){
     int task;
     system("clear");
-    printf("Made by Remdenok Pavel\n\nВведите номер задания: ");
+    printf("Введите номер задания: ");
     scanf("%d", &task);
     if(task < 4)
         input(task);
