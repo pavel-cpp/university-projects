@@ -23,7 +23,7 @@ float GPA(int rating[10]){
     for (int i = 0; i < 5; ++i) {
         resault += rating[i];
     }
-    resalut /= 5;
+    resault /= 5;
     return resault;
 }
 
