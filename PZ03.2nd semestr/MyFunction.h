@@ -19,12 +19,12 @@ struct STUDENT{
 struct STUDENT stud[10];
 
 float GPA(int rating[10]){
-    float resalut;
+    float resault;
     for (int i = 0; i < 5; ++i) {
-        resalut += rating[i];
+        resault += rating[i];
     }
     resalut /= 5;
-    return resalut;
+    return resault;
 }
 
 void firstTask(){
@@ -142,6 +142,7 @@ void input2(int task){
         printf("Введите тип самолета: ");
         scanf("%s", planes[i].type);
     }
+    system("clear");
     if(task == 5) sort();
     printInfo();
     switcher(task);
@@ -167,5 +168,6 @@ void input(int task) {
                 scanf("%d", &stud[i].rating[j]);
             }
         }
+        system("clear");
     switcher(task);
 }
