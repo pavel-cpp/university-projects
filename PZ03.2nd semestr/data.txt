@@ -1,0 +1,10 @@
+Remdenok_P.A. 15 5 3 4 5 5
+Zemtsov_A.A 15 2 3 3 2 3 2
+Oasipova_D.V 16 4 4 4 4 4
+Carlos_ZH.A 14 2 3 4 5 3
+Degtyar_M.A 13 2 3 4 4 2
+Remdenok_P.A. 15 5 3 4 5 5
+Zemtsov_A.A 15 2 3 3 2 3 2
+Oasipova_D.V 16 3 4 3 4 3
+Carlos_ZH.A 14 2 3 4 5 3
+Degtyar_M.A 13 2 3 4 4 2
