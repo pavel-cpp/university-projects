@@ -85,17 +85,18 @@ void fileoutput(int N){
 }
 
 int start(char ch) {
+    if(ch != '1' && ch != '2' && ch != '3'){
+        system("./start.sh");
+        exit(EXIT_SUCCESS);
+    }
     system("clear");
     int N = 10;
-    if(ch == '1' || ch == '2' || ch == '3'){
         printf("Введите количество точек: ");
         scanf("%d", &N);
         system("clear");
-    }
     switch (ch) {
         case '1':
             checkCalculationForNPoints(N);
-            system("open /Users/user/projects/kyrsach/kyrsach.wxmx");
             return 0;
         case '2':
             calculationOfAParameterWithAGivenAccuracy(N);
@@ -104,15 +105,6 @@ int start(char ch) {
             fileoutput(N);
             printf("Запись в файл прошла успешно!\n");
             return 2;
-        case '4':
-            printf("После открытия wxMaxima, необходимо будет нажать на кнопку \"Send all cells to maxima\"");
-            printf("\nОткрытие wxMaxima...\n");
-            sleep(5);
-            system("clear");
-            system("open /Users/user/projects/kyrsach/input.wxmx");
-            return 3;
-        default:
-            exit(EXIT_SUCCESS);
     }
     return 0;
 }
