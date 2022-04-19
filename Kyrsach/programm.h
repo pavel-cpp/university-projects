@@ -27,7 +27,7 @@ float Uvx(float t){
 
 float Uvix(float t){
     if(Uvx(t)<=10) return 5;
-    if(Uvx(t) > 10) return (b*pow(Uvx(t), 2));
+    if(Uvx(t) > 10) return (0.05*pow(Uvx(t), 2));
     return 0;
 }
 
