@@ -5,7 +5,7 @@ int main(){
     int second_number;
     int third_number;
 
-    printf("Введите 3 числа: ");
+    printf("Input 3 numbers: ");
     scanf("%d %d %d", &first_number, &second_number, &third_number);
 
     int result;
@@ -17,9 +17,9 @@ int main(){
     }else if(third_number > second_number && third_number > first_number){
         result = third_number;
     }else{
-        printf("Все числа равны\n");
+        printf("All numbers are equal\n");
         return 1;
     }
-    printf("Число %d максимальное!\n", result);
+    printf("Number %d is maximum!\n", result);
     return 0;
 }

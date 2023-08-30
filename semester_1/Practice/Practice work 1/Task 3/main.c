@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(){
-    int x;
-    printf("Введите x: ");
-    scanf("%d", &x);
-    if(x > 0){
-        printf("y = %d", 2 * x - 10);
-    }else if(x == 0){
-        printf("y = 0");
+    int n, k;
+    printf("Input n: ");
+    scanf("%d", &n);
+    printf("Input k: ");
+    scanf("%d", &k);
+    if(n % k == 0){
+        printf("n multiple k\n");
     }else{
-        printf("y = %d", 2 * abs(x) - 1);
+        printf("n not multiple k\n");
     }
     return 0;
 }
