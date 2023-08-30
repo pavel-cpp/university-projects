@@ -5,7 +5,7 @@ int main(){
     int second_number;
     int third_number;
 
-    printf("Input 3 numbers: ");
+    printf("Enter 3 numbers: ");
     scanf("%d %d %d", &first_number, &second_number, &third_number);
 
     int result;

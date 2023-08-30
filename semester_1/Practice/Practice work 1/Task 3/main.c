@@ -2,9 +2,9 @@
 
 int main(){
     int n, k;
-    printf("Input n: ");
+    printf("Enter n: ");
     scanf("%d", &n);
-    printf("Input k: ");
+    printf("Enter k: ");
     scanf("%d", &k);
     if(n % k == 0){
         printf("n multiple k\n");

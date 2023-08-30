@@ -3,7 +3,7 @@
 
 int main(){
     int x;
-    printf("Input x: ");
+    printf("Enter x: ");
     scanf("%d", &x);
     if(x > 0){
         printf("y = %d", 2 * x - 10);
