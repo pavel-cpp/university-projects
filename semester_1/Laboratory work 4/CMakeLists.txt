@@ -1,7 +1,7 @@
 set(CMAKE_MINIMUM_REQUIRED_VERSION 3.23)
 project("Laboratory Work 4")
 
-set(METHODS_PREFIX_PATH source/methods/)
+set(METHODS_PREFIX_PATH source/methods)
 
 set(CMAKE_C_STANDARD 99)
 
